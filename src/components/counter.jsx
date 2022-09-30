@@ -18,12 +18,12 @@ const Counter = (props) => {
     }
 
     // const handleIncrement = () => {
-    //     console.log('handleIncrement');
+    //     console.log('handle Increment');
     //     // setValue((prevState) => prevState + 1);
     // }
 
     // const handleDecrement = () => {
-    //     console.log('handleDecrement');
+    //     console.log('handle Decrement');
     //     // setValue((prevState) => prevState - 1);
     // }
 
