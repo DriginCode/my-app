@@ -31,7 +31,7 @@ const CountersList = () => {
     const handleDecrement = (id) => {
         const newValue = counters.map((item) => ({
             ...item,
-            value: item.id === id ? item.value - 1 : item.value
+            value: item.id === id && item.value > 0 ? item.value - 1 : item.value
         }));
         SetCounters(newValue);
     }

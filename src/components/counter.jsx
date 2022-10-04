@@ -3,9 +3,6 @@ import React from "react";
 const Counter = (props) => {
     // const [value, setValue] = useState(props.value);
     const { value } = props;
-    //console.log('value', value);
-    //console.log('props', props.id);
-
 
     const formatValue = () => {
         return value === 0 ? 'empty' : value;
